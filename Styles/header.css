@@ -1,0 +1,111 @@
+.navigation-wrapper {
+    height: 95px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 13%;
+}
+
+.navigation-wrapper > .left-column > .header-logo img {
+    height: auto;
+    padding-left: 25px;
+    width: 95%;
+}
+
+.navigation-wrapper > .center-column {
+    display: flex;
+    justify-content: left;
+    width: 43%;
+}
+
+.navigation-wrapper > .center-column > .link-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 70%;
+}
+
+.navigation-wrapper > .center-column > .link-section > .explore p {
+    color: #ece187;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.navigation-wrapper > .center-column > .link-section > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper > .center-column > .link-section > .links-wrapper > .nav-link a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:700;
+    font-size: 1.7em;
+}
+
+.navigation-wrapper > .center-column > .link-section > .links-wrapper > .nav-link-spark a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.7em;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.navigation-wrapper > .center-column > .link-section > .links-wrapper > .nav-link-spark i {
+    color: #b3b3b3;
+}
+
+.navigation-wrapper > .right-column {
+    width: 35%;
+    display: flex;
+    justify-content: right;
+}
+
+.navigation-wrapper > .right-column > .button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 13px;
+    width: 85%;
+}
+
+.navigation-wrapper > .right-column > .button-wrapper > .buttons {
+    padding: 15px 27px;
+    background-color: #36383f;
+    border: 1px solid #36383f;
+    border-radius: 5px;
+}
+
+
+.navigation-wrapper > .right-column > .button-wrapper > .buttons a {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .right-column > .button-wrapper > .buttons i {
+    color: #4bce79;
+    padding-left: 10px;
+    font-size: 1.75em
+}
+
+
+.navigation-wrapper > .right-column > .button-wrapper > .search-icon-wrapper {
+    color: #b3b3b3;
+    font-size: 2.25em;
+    padding: 0px 15px;
+}
+
+

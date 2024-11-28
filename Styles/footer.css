@@ -1,0 +1,27 @@
+.footer {
+    background-color: #36383f;
+    height: 75.5px;
+    width: 100%;
+}
+
+.footer > .codepen-for-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    height: 2cm;
+}
+
+.footer > .codepen-for-section > .codepen-for {
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > .codepen-for-section > .codepen-for p {
+    margin: 0;
+    font-size: 1.25em;
+    color: white;
+    font-weight: 600;
+}
+
